@@ -14,7 +14,8 @@ Gem::Specification.new do |gem|
   gem.required_ruby_version = '>= 1.9'
   gem.license = 'MIT'
 
-  gem.add_dependency 'rails',               '~> 4.1.0'
+  gem.add_dependency 'rails',               '~> 4.2.0'
+  gem.add_dependency 'responders',          '~> 2.0'
   gem.add_dependency 'jquery-rails'
   gem.add_dependency 'jquery-migrate-rails'
   gem.add_dependency 'jquery-ui-rails'

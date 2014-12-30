@@ -85,6 +85,8 @@ gem 'rails3-jquery-autocomplete', github: 'crowdint/rails3-jquery-autocomplete'
 
 gem 'ransack', github: 'activerecord-hackery/ransack'
 gem 'ransack_ui', github: 'fatfreecrm/ransack_ui', branch: 'fix/ransortable_attributes'
+gem 'authlogic', github: 'drhenner/authlogic', branch: 'rails4.2'
+gem 'paper_trail', github: 'airblade/paper_trail'
 
 # this is because observers are deprecated
 gem 'rails-observers'
